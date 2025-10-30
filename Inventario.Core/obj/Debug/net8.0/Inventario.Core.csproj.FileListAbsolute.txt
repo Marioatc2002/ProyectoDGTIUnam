@@ -1,0 +1,12 @@
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\bin\Debug\net8.0\Inventario.Core.deps.json
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\bin\Debug\net8.0\Inventario.Core.dll
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\bin\Debug\net8.0\Inventario.Core.pdb
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\Inventario.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\Inventario.Core.AssemblyInfoInputs.cache
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\Inventario.Core.AssemblyInfo.cs
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\Inventario.Core.csproj.CoreCompileInputs.cache
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\Inventario.Core.sourcelink.json
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\Inventario.Core.dll
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\refint\Inventario.Core.dll
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\Inventario.Core.pdb
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core\obj\Debug\net8.0\ref\Inventario.Core.dll

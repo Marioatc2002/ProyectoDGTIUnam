@@ -3,60 +3,80 @@
   "WorkspaceRootPath": "D:\\proyectos\\diplomadoUnam\\inventario\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\helpercryptography.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\helpercryptography.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\models\\ordenproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\models\\ordenproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\viewmodels\\usuariovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\viewmodels\\usuariovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\views\\acceso\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\views\\acceso\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\controllers\\ordenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\controllers\\ordenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\migrations\\20251013182615_se inicia proyecto con tabla de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\migrations\\20251013182615_se inicia proyecto con tabla de usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\inventario.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\inventario.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\inventario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\inventario.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|d:\\proyectos\\diplomadounam\\inventario\\inventario\\migrations\\20251029212749_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}|inventario\\inventario.csproj|solutionrelative:inventario\\migrations\\20251029212749_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,19 +86,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
@@ -90,20 +106,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "inventario\\Models\\Usuario.cs",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Usuario.cs",
-              "RelativeToolTip": "inventario\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "inventario\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "inventario\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T05:16:03.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "inventario\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "inventario\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T05:13:38.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "inventario\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "inventario\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T05:07:26.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "inventario\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "inventario\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T05:07:13.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdensController.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\OrdensController.cs",
+              "RelativeDocumentMoniker": "inventario\\Controllers\\OrdensController.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\OrdensController.cs",
+              "RelativeToolTip": "inventario\\Controllers\\OrdensController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T16:45:55.067Z",
+              "WhenOpened": "2025-10-30T05:06:24.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "inventario\\Controllers\\ProductoesController.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "inventario\\Controllers\\ProductoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T05:04:29.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "inventario\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "inventario\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:26:31.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251029212749_Inicial.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Migrations\\20251029212749_Inicial.cs",
+              "RelativeDocumentMoniker": "inventario\\Migrations\\20251029212749_Inicial.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Migrations\\20251029212749_Inicial.cs",
+              "RelativeToolTip": "inventario\\Migrations\\20251029212749_Inicial.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T21:27:49.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "inventario\\Controllers\\AccesoController.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "inventario\\Controllers\\AccesoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T20:52:05.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "inventario\\Models\\ErrorViewModel.cs",
@@ -111,150 +230,120 @@
               "RelativeToolTip": "inventario\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T21:44:00.639Z"
+              "WhenOpened": "2025-10-29T19:48:21.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HelperCryptography.cs",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\HelperCryptography.cs",
-              "RelativeDocumentMoniker": "inventario\\HelperCryptography.cs",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\HelperCryptography.cs",
-              "RelativeToolTip": "inventario\\HelperCryptography.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAANAAAAAAAAAA==",
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "inventario\\Models\\Categoria.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Categoria.cs",
+              "RelativeToolTip": "inventario\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T21:19:29.49Z"
+              "WhenOpened": "2025-10-29T20:39:25.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccesoController.cs",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\AccesoController.cs",
-              "RelativeDocumentMoniker": "inventario\\Controllers\\AccesoController.cs",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Controllers\\AccesoController.cs",
-              "RelativeToolTip": "inventario\\Controllers\\AccesoController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowCYAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "inventario\\Models\\Producto.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Producto.cs",
+              "RelativeToolTip": "inventario\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T18:30:21.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioVM.cs",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\ViewModels\\UsuarioVM.cs",
-              "RelativeDocumentMoniker": "inventario\\ViewModels\\UsuarioVM.cs",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\ViewModels\\UsuarioVM.cs",
-              "RelativeToolTip": "inventario\\ViewModels\\UsuarioVM.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wCQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T19:13:45.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "inventario\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "inventario\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T19:06:11.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "inventario\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "inventario\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T19:06:08.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Registrarse.cshtml",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Acceso\\Registrarse.cshtml",
-              "RelativeDocumentMoniker": "inventario\\Views\\Acceso\\Registrarse.cshtml",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Views\\Acceso\\Registrarse.cshtml",
-              "RelativeToolTip": "inventario\\Views\\Acceso\\Registrarse.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T19:05:07.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20251013182615_Se inicia proyecto con tabla de Usuarios.cs",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Migrations\\20251013182615_Se inicia proyecto con tabla de Usuarios.cs",
-              "RelativeDocumentMoniker": "inventario\\Migrations\\20251013182615_Se inicia proyecto con tabla de Usuarios.cs",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Migrations\\20251013182615_Se inicia proyecto con tabla de Usuarios.cs",
-              "RelativeToolTip": "inventario\\Migrations\\20251013182615_Se inicia proyecto con tabla de Usuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T18:26:16.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\appsettings.json",
-              "RelativeDocumentMoniker": "inventario\\appsettings.json",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\appsettings.json",
-              "RelativeToolTip": "inventario\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-11T21:27:37.928Z"
+              "WhenOpened": "2025-10-29T20:30:33.77Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Data\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "inventario\\Data\\AppDBContext.cs",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Data\\AppDBContext.cs",
-              "RelativeToolTip": "inventario\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCUAAAA+AAAAAAAAAA==",
+              "Title": "OrdenProducto.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\OrdenProducto.cs",
+              "RelativeDocumentMoniker": "inventario\\Models\\OrdenProducto.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\OrdenProducto.cs",
+              "RelativeToolTip": "inventario\\Models\\OrdenProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T23:28:53.137Z"
+              "WhenOpened": "2025-10-29T20:25:34.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "inventario",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\inventario.csproj",
-              "RelativeDocumentMoniker": "inventario\\inventario.csproj",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\inventario.csproj",
-              "RelativeToolTip": "inventario\\inventario.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-11T21:39:13.533Z"
+              "DocumentIndex": 3,
+              "Title": "Orden.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Orden.cs",
+              "RelativeDocumentMoniker": "inventario\\Models\\Orden.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Orden.cs",
+              "RelativeToolTip": "inventario\\Models\\Orden.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:52:29.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "inventario\\Models\\Rol.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Rol.cs",
+              "RelativeToolTip": "inventario\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:49:34.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "inventario\\Models\\Usuario.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Models\\Usuario.cs",
+              "RelativeToolTip": "inventario\\Models\\Usuario.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:44:47.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Program.cs",
               "RelativeDocumentMoniker": "inventario\\Program.cs",
               "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Program.cs",
               "RelativeToolTip": "inventario\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T21:36:26.485Z"
+              "WhenOpened": "2025-10-29T19:43:10.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "inventario.csproj",
-              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\inventario.csproj",
-              "RelativeDocumentMoniker": "inventario\\inventario.csproj",
-              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\inventario.csproj",
-              "RelativeToolTip": "inventario\\inventario.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-11T21:21:27.678Z"
+              "DocumentIndex": 15,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "inventario\\Data\\AppDBContext.cs",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "inventario\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:42:44.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\appsettings.json",
+              "RelativeDocumentMoniker": "inventario\\appsettings.json",
+              "ToolTip": "D:\\proyectos\\diplomadoUnam\\inventario\\inventario\\appsettings.json",
+              "RelativeToolTip": "inventario\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T19:41:40.217Z"
             }
           ]
         }

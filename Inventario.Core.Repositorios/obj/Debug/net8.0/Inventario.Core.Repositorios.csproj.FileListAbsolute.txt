@@ -1,0 +1,12 @@
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\bin\Debug\net8.0\Inventario.Core.Repositorios.deps.json
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\bin\Debug\net8.0\Inventario.Core.Repositorios.dll
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\bin\Debug\net8.0\Inventario.Core.Repositorios.pdb
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\Inventario.Core.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\Inventario.Core.Repositorios.AssemblyInfoInputs.cache
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\Inventario.Core.Repositorios.AssemblyInfo.cs
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\Inventario.Core.Repositorios.csproj.CoreCompileInputs.cache
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\Inventario.Core.Repositorios.sourcelink.json
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\Inventario.Core.Repositorios.dll
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\refint\Inventario.Core.Repositorios.dll
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\Inventario.Core.Repositorios.pdb
+D:\proyectos\diplomadoUnam\inventario\Inventario.Core.Repositorios\obj\Debug\net8.0\ref\Inventario.Core.Repositorios.dll
