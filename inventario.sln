@@ -1,17 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11512.155 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventario", "inventario\inventario.csproj", "{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.Core", "Inventario.Core\Inventario.Core.csproj", "{CBA10FD6-C8BC-4E79-B951-842BA9A3E259}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.Core.Repositorios", "Inventario.Core.Repositorios\Inventario.Core.Repositorios.csproj", "{D8274CE4-E4D3-406F-AA7E-B042E5D9148B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.ReglasNegocios", "Inventario.ReglasNegocios\Inventario.ReglasNegocios.csproj", "{24C704E2-DEA1-4190-A7E3-0D18C4004783}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.Repositorios", "Inventario.Repositorios\Inventario.Repositorios.csproj", "{C8213E5E-CBB0-4980-8B64-71FCC862E4E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.API", "Inventario.API\Inventario.API.csproj", "{E0CBF927-F2C8-4C62-8B58-067C60B7898C}"
 EndProject
@@ -25,22 +17,6 @@ Global
 		{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA203817-A1A9-4AE2-9103-65BDD3F88EEA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CBA10FD6-C8BC-4E79-B951-842BA9A3E259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBA10FD6-C8BC-4E79-B951-842BA9A3E259}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBA10FD6-C8BC-4E79-B951-842BA9A3E259}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBA10FD6-C8BC-4E79-B951-842BA9A3E259}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8274CE4-E4D3-406F-AA7E-B042E5D9148B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8274CE4-E4D3-406F-AA7E-B042E5D9148B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8274CE4-E4D3-406F-AA7E-B042E5D9148B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8274CE4-E4D3-406F-AA7E-B042E5D9148B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24C704E2-DEA1-4190-A7E3-0D18C4004783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24C704E2-DEA1-4190-A7E3-0D18C4004783}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24C704E2-DEA1-4190-A7E3-0D18C4004783}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24C704E2-DEA1-4190-A7E3-0D18C4004783}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8213E5E-CBB0-4980-8B64-71FCC862E4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8213E5E-CBB0-4980-8B64-71FCC862E4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8213E5E-CBB0-4980-8B64-71FCC862E4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8213E5E-CBB0-4980-8B64-71FCC862E4E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0CBF927-F2C8-4C62-8B58-067C60B7898C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0CBF927-F2C8-4C62-8B58-067C60B7898C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0CBF927-F2C8-4C62-8B58-067C60B7898C}.Release|Any CPU.ActiveCfg = Release|Any CPU

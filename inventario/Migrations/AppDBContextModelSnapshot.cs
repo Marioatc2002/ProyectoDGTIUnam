@@ -22,62 +22,24 @@ namespace inventario.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("inventario.Models.Categoria", b =>
+            modelBuilder.Entity("inventario.Models.Genero", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<string>("TipoCategoria")
+                    b.Property<string>("tipo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("id");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Genero");
                 });
 
-            modelBuilder.Entity("inventario.Models.Orden", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CodigoOrden")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
-
-                    b.Property<string>("DireccionEntrega")
-                        .IsRequired()
-                        .HasMaxLength(300)
-                        .HasColumnType("nvarchar(300)");
-
-                    b.Property<DateTime>("FechaEntrega")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("FechaSolicitada")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
-
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("Ordenes");
-                });
-
-            modelBuilder.Entity("inventario.Models.OrdenProducto", b =>
+            modelBuilder.Entity("inventario.Models.ProductoIngrediente", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -88,33 +50,10 @@ namespace inventario.Migrations
                     b.Property<int>("Cantidad")
                         .HasColumnType("int");
 
-                    b.Property<int>("OrdenId")
-                        .HasColumnType("int");
+                    b.Property<decimal>("CantidadProducto")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("ProductoId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrdenId");
-
-                    b.HasIndex("ProductoId");
-
-                    b.ToTable("OrdenProductos");
-                });
-
-            modelBuilder.Entity("inventario.Models.Producto", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CategoriaId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("CodigoProducto")
+                    b.Property<string>("Codigo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -122,15 +61,64 @@ namespace inventario.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateOnly>("FechaEntrada")
+                        .HasColumnType("date");
+
+                    b.Property<DateOnly?>("FechaVencimiento")
+                        .HasColumnType("date");
+
                     b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("PrecioUnidad")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UnidadMedida")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UrlImagen")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoriaId");
+                    b.ToTable("Ingredientes");
+                });
 
-                    b.ToTable("Productos");
+            modelBuilder.Entity("inventario.Models.ProductoTienda", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly>("FechaCaducidad")
+                        .HasColumnType("date");
+
+                    b.Property<DateOnly>("FechaCreacion")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UrlImagen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductosTienda");
                 });
 
             modelBuilder.Entity("inventario.Models.Rol", b =>
@@ -141,13 +129,14 @@ namespace inventario.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("TipoRol")
+                    b.Property<string>("NombreRol")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Rol");
                 });
 
             modelBuilder.Entity("inventario.Models.Usuario", b =>
@@ -176,8 +165,14 @@ namespace inventario.Migrations
                     b.Property<DateTime>("FechaAlta")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("FechaNacimiento")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("FechaNacimiento")
+                        .HasColumnType("date");
+
+                    b.Property<string>("FotoRuta")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("GeneroId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
@@ -186,101 +181,117 @@ namespace inventario.Migrations
 
                     b.Property<string>("Pass")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("RolId")
                         .HasColumnType("int");
 
                     b.Property<string>("Salt")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(1)");
 
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.HasIndex("GeneroId");
+
+                    b.HasIndex("Pass")
+                        .IsUnique();
 
                     b.HasIndex("RolId");
 
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("inventario.Models.Orden", b =>
+            modelBuilder.Entity("inventario.Models.ingresoIngredientes", b =>
                 {
-                    b.HasOne("inventario.Models.Usuario", "Usuario")
-                        .WithMany("Ordenes")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                    b.Navigation("Usuario");
-                });
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-            modelBuilder.Entity("inventario.Models.OrdenProducto", b =>
-                {
-                    b.HasOne("inventario.Models.Orden", "Orden")
-                        .WithMany("OrdenProductos")
-                        .HasForeignKey("OrdenId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
 
-                    b.HasOne("inventario.Models.Producto", "Producto")
-                        .WithMany("OrdenProductos")
-                        .HasForeignKey("ProductoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<DateTime>("FechaIngreso")
+                        .HasColumnType("datetime2");
 
-                    b.Navigation("Orden");
+                    b.Property<int>("Id_ProductoPerecedero")
+                        .HasColumnType("int");
 
-                    b.Navigation("Producto");
-                });
+                    b.Property<int>("Id_Usuario")
+                        .HasColumnType("int");
 
-            modelBuilder.Entity("inventario.Models.Producto", b =>
-                {
-                    b.HasOne("inventario.Models.Categoria", "Categoria")
-                        .WithMany("Productos")
-                        .HasForeignKey("CategoriaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<string>("MotivoEntrada")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Navigation("Categoria");
+                    b.HasKey("Id");
+
+                    b.HasIndex("Id_ProductoPerecedero");
+
+                    b.HasIndex("Id_Usuario");
+
+                    b.ToTable("IngresoIngredientes");
                 });
 
             modelBuilder.Entity("inventario.Models.Usuario", b =>
                 {
+                    b.HasOne("inventario.Models.Genero", "Genero")
+                        .WithMany("Usuarios")
+                        .HasForeignKey("GeneroId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("inventario.Models.Rol", "Rol")
                         .WithMany("Usuarios")
                         .HasForeignKey("RolId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Genero");
+
                     b.Navigation("Rol");
                 });
 
-            modelBuilder.Entity("inventario.Models.Categoria", b =>
+            modelBuilder.Entity("inventario.Models.ingresoIngredientes", b =>
                 {
-                    b.Navigation("Productos");
+                    b.HasOne("inventario.Models.ProductoIngrediente", "ProductoIngrediente")
+                        .WithMany()
+                        .HasForeignKey("Id_ProductoPerecedero")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("inventario.Models.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("Id_Usuario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductoIngrediente");
+
+                    b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("inventario.Models.Orden", b =>
+            modelBuilder.Entity("inventario.Models.Genero", b =>
                 {
-                    b.Navigation("OrdenProductos");
-                });
-
-            modelBuilder.Entity("inventario.Models.Producto", b =>
-                {
-                    b.Navigation("OrdenProductos");
+                    b.Navigation("Usuarios");
                 });
 
             modelBuilder.Entity("inventario.Models.Rol", b =>
                 {
                     b.Navigation("Usuarios");
-                });
-
-            modelBuilder.Entity("inventario.Models.Usuario", b =>
-                {
-                    b.Navigation("Ordenes");
                 });
 #pragma warning restore 612, 618
         }

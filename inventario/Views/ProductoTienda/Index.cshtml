@@ -1,0 +1,67 @@
+﻿@model IEnumerable<inventario.Models.ProductoTienda>
+
+<div class="container py-5">
+    <h2 class="text-center mb-4 border-bottom pb-2 text-uppercase fw-bold" style="letter-spacing: 2px;">
+        Postres en Stock
+    </h2>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        @foreach (var producto in Model)
+        {
+            <div class="col">
+                <div class="card h-100 border-0 shadow-sm product-card">
+                    <div class="position-absolute mt-2 ms-2">
+                        <span class="badge @(producto.Cantidad > 0 ? "bg-success" : "bg-danger")">
+                            Stock: @(producto.Cantidad ?? 0)
+                        </span>
+                    </div>
+
+                    <div class="p-3 d-flex align-items-center justify-content-center bg-light" style="height: 200px;">
+                        <img src="@producto.UrlImagen"
+                             class="img-fluid"
+                             style="object-fit: cover; height: 200px; width: 100%;"
+                             alt="@producto.Nombre"
+                             
+                             loading="lazy">
+                    </div>
+
+                    <div class="card-body text-center d-flex flex-column">
+                        <p class="text-muted small mb-1">POSTRES</p>
+                        <h5 class="card-title fw-bold text-dark mb-2">@producto.Nombre</h5>
+                        <p class="card-text text-muted small flex-grow-1">
+                            @producto.Descripcion
+                        </p>
+
+                        <div class="bg-light rounded p-2 mb-3">
+                            <div class="d-flex justify-content-between small text-muted">
+                                <span>Creado:</span>
+                                <span>@producto.FechaCreacion.ToString("dd/MM/yyyy")</span>
+                            </div>
+                            <div class="d-flex justify-content-between small text-danger fw-bold">
+                                <span>Vence:</span>
+                                <span>@producto.FechaCaducidad.ToString("dd/MM/yyyy")</span>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-dark w-100 text-uppercase fw-bold py-2">
+                            Ver Detalles
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .product-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }
+
+    .card-title {
+        font-size: 0.95

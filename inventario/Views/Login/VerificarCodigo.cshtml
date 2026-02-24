@@ -1,0 +1,40 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "Verificar Código";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4>Verificación OTP</h4>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted text-center">Ingresa el código de 6 dígitos enviado a tu teléfono.</p>
+
+                    <form asp-action="VerificarCodigo" method="post">
+                        <input type="hidden" name="correo" value="@ViewBag.Correo" />
+
+                        <div class="form-group mb-3">
+                            <label class="form-label">Código de Seguridad</label>
+                            <input type="text" name="codigoIngresado" class="form-control text-center"
+                                   placeholder="000000" maxlength="6" required autofocus />
+                        </div>
+
+                        @if (ViewData["Mensaje"] != null)
+                        {
+                            <div class="alert alert-danger">@ViewData["Mensaje"]</div>
+                        }
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Verificar Código</button>
+                            <a asp-action="Recuperacion" class="btn btn-link text-decoration-none">Reenviar código</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

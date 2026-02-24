@@ -7,7 +7,8 @@ namespace inventario.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string TipoRol { get; set; }
+        [MaxLength(10)]
+        public string NombreRol { get; set; }
 
         // --- Relaciones ---
 

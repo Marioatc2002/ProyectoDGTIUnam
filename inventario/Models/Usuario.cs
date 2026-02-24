@@ -1,25 +1,28 @@
 ﻿using System.ComponentModel;
+using Microsoft.EntityFrameworkCore; // Necesario para [Index]
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema; // Necesario para [ForeignKey]
 
 namespace inventario.Models
 {
+    [Index(nameof(Email), IsUnique = true)]
+    [Index(nameof(Pass), IsUnique = true)]
     public class Usuario
     {
         [Key]
         public int Id { get; set; }
         [MaxLength(40)]
         [Required]
-        [DisplayName("Nombres")]
+        [DisplayName("Nombre (s)")]
         public string Nombre { get; set; }
-        [MaxLength(40)]
-        [Required]
-        [DisplayName("Apellido Materno")]
-        public string ApellidoMaterno { get; set; }
         [MaxLength(40)]
         [Required]
         [DisplayName("Apellido Paterno")]
         public string ApellidoPaterno { get; set; }
+        [MaxLength(40)]
+        [Required]
+        [DisplayName("Apellido Materno")]
+        public string ApellidoMaterno { get; set; }
         [MaxLength(100)]
         [EmailAddress]
         [Required]
@@ -30,28 +33,40 @@ namespace inventario.Models
         [DataType(DataType.Password)]
         [DisplayName("Contraseña")]
         public string Pass { get; set; }
+       
+        public string? Salt { get; set; }
         [Required]
-        public string Salt { get; set; }
-        [Required]
-        public char Status { get; set; } = 'A'; //Dropdownlist (A/I/B)
+        public char Status { get; set; } = 'A'; 
 
         [Required]
+        [DisplayName("Alta")]
         public DateTime FechaAlta { get; set; } = DateTime.Now;
-        [DataType(DataType.DateTime)]
+        [DataType(DataType.Date)]
         [Required]
-        [DisplayName("Fecha de nacimiento")]
-        public DateTime FechaNacimiento { get; set; }
+        [DisplayName("Nacimiento")]
+        public DateOnly FechaNacimiento { get; set; }
 
-        // --- Relaciones ---
+        [Required(ErrorMessage = "El teléfono es obligatorio")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Solo se permiten números sin espacios ni guiones")]
+        [StringLength(10, MinimumLength = 10, ErrorMessage = "El teléfono debe tener exactamente 10 dígitos")]
+        public string Telefono { get; set; }
+
+        public string? FotoRuta { get; set; } 
+                                              //--- Relaciones ---
+
+        [Required]
+        public int GeneroId { get; set; } // Llave Foránea
+        [ForeignKey("GeneroId")]
+        public virtual Genero? Genero{ get; set; } // Propiedad de Navegación
+
 
         // 1. Relación Muchos a Uno con Rol (Un usuario tiene un Rol)
         [Required]
         public int RolId { get; set; } // Llave Foránea
 
         [ForeignKey("RolId")]
-        public virtual Rol Rol { get; set; } // Propiedad de Navegación
+        public virtual Rol? Rol { get; set; } // Propiedad de Navegación
 
-        // 2. Relación Uno a Muchos con Orden (Un usuario tiene muchas Ordenes)
-        public virtual ICollection<Orden> Ordenes { get; set; } = new List<Orden>();
+
     }
 }

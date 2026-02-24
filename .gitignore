@@ -1,0 +1,9 @@
+# Bloquear carpetas de compilación en todo el proyecto
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+
+# Bloquear archivos de configuración con credenciales
+appsettings.Development.json
+appsettings.json

@@ -1,0 +1,43 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "Restablecer Contraseña";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow border-0">
+                <div class="card-body p-4">
+                    <h3 class="text-center mb-4">Nueva Contraseña</h3>
+                    <p class="text-center text-muted">Establece una clave segura para tu cuenta de inventario.</p>
+
+                    <form asp-action="CambiarClave" method="post">
+                        <input type="hidden" name="correo" value="@ViewBag.Correo" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Nueva Contraseña</label>
+                            <input type="password" name="nuevaClave" class="form-control"
+                                   placeholder="Mínimo 8 caracteres" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Confirmar Contraseña</label>
+                            <input type="password" name="confirmarClave" class="form-control"
+                                   placeholder="Repite tu contraseña" required />
+                        </div>
+
+                        @if (ViewData["Mensaje"] != null)
+                        {
+                            <div class="alert alert-warning">@ViewData["Mensaje"]</div>
+                        }
+
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-success">Actualizar Contraseña</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
